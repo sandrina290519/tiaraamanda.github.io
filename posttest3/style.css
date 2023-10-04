@@ -1,0 +1,56 @@
+.jumbotron {
+    padding-top: 6 rem;
+    background-color: #d86100;
+  }
+  
+  #Hobby {
+    background-color: #d86100;
+  }
+  
+  section {
+      padding-top: 5rem;
+  }
+
+/* .container {
+  max-width: 10px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* .dark-mode .container {
+    background-color: #444;
+    color: #fff;
+} */
+
+.dark-mode .jumbotron {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode button {
+    background-color: #555;
+    color: #fff;
+}
+
+#mydiv {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 200px;
+}
+
+.card {
+  color:#d86100;
+}
+
+
+

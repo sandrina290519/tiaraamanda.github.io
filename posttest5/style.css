@@ -1,0 +1,451 @@
+.jumbotron {
+    padding-top: 6 rem;
+    background-color: #d86100;
+  }
+  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #d86100;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #c35800;
+    color: black;
+}
+  section {
+      padding-top: 5rem;
+  }
+
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.dark-mode .jumbotron {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode button {
+    background-color: #555;
+    color: #fff;
+}
+
+#mydiv {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 200px;
+}
+
+.card {
+  color:#d86100;
+}
+
+
+/* Style form container */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+.form label {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style input fields */
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style input icons */
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #888;
+  font-size: 20px;
+}
+
+/* Style submit button */
+.form button[type="submit"] {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #0d6efd;
+}
+
+
+.navbar-nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-item:last-child {
+  margin-left: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ddd; /* Warna saat dihover */
+}
+
+.image-container {
+  width: 200px; /* Sesuaikan dengan ukuran gambar */
+  height: 200px; /* Sesuaikan dengan ukuran gambar */
+  border-radius: 50%; /* Mengubah bentuk menjadi bulat */
+  overflow: hidden; /* Memastikan gambar tidak keluar dari batas lingkaran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Pusatkan gambar di tengah */
+}
+
+.image-container img {
+  width: 100%; /* Pastikan gambar diisi ke dalam lingkaran */
+  height: auto; /* Sesuaikan tinggi agar tidak terjadi distorsi */
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 60 px;
+  
+}
+
+.centered-content {
+  margin: 0 auto;
+}
+
+.centered-content {
+  text-align: center; /* Menengahkan teks secara horizontal */
+  margin: 0 auto; /* Menengahkan elemen secara horizontal */
+}
+
+
+.right-align {
+  text-align: right;
+}
+
+
+.card.text-center img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Membuat kontainer menjadi setinggi viewport */
+}
+
+#elemen {
+  margin-bottom: 20px; /* Menambahkan jarak antara teks dan tombol */
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Jarak antara kartu */
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc; /* Tambahkan garis pinggir jika diinginkan */
+  border-radius: 10px; /* Sudut sudut card */
+  overflow: hidden; /* Memastikan gambar di dalam card tidak keluar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* //table */
+
+.add-form-container {
+  background-color: #FFD700; /* Warna latar belakang form */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+h1 {
+  color: #8B4513; /* Warna teks cokelat */
+  font-size: 24px;
+}
+
+.textfield {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #8B4513; /* Warna border cokelat */
+}
+
+.login-btn {
+  background-color: #8B4513; /* Warna tombol cokelat */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #A0522D; /* Warna tombol hover cokelat tua */
+}
+
+table {
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.edit-btn, .delete-btn {
+  background-color: #8B4513; /* Warna tombol edit dan hapus cokelat */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  background-color: #A0522D; /* Warna tombol hover cokelat tua */
+}
+
+/* update */
+body {
+  background-color: #f5f2e1; /* Warna latar belakang halaman */
+  font-family: Arial, sans-serif; /* Jenis font teks */
+}
+
+.add-form-container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f0ad4e; /* Warna latar belakang formulir */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.add-form-container h1 {
+  color: #603c27; /* Warna teks judul */
+  text-align: center;
+}
+
+.textfield {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #603c27; /* Warna garis tepi input */
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #603c27; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #874c38; /* Warna latar belakang tombol saat disorot */
+}
+
+
+/* section table pada index.php */
+.add-data {
+  background-color: #f0ad4e; /* Warna latar belakang bagian add-data */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #888888;
+  margin: 20px;
+}
+
+.add-data h1 {
+  color: #603c27; /* Warna teks judul */
+}
+
+.add-btn {
+  background-color: #603c27; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Efek transisi warna latar belakang saat hover */
+}
+
+.add-btn:hover {
+  background-color: #874c38; /* Warna latar belakang tombol saat disorot */
+}
+
+
+/* bagian komentar di index */
+#komentar {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #888888;
+  margin: 20px;
+  text-align: center; /* Menengahkan elemen-elemen di dalam #komentar */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: #603c27; /* Warna teks label */
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-icon {
+  display: inline-block; /* Menjadikan elemen input dan ikon dalam satu baris */
+  position: relative;
+  text-align: left; /* Mengembalikan teks dan ikon ke kiri */
+  margin-bottom: 15px;
+}
+
+.input-icon input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-icon .fas {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #603c27; /* Warna ikon */
+}
+
+.btn-submit {
+  background-color: #603c27; /* Warna latar belakang tombol submit */
+  color: #fff; /* Warna teks tombol submit */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efek transisi warna latar belakang saat hover */
+  display: block; /* Mengubah tombol submit menjadi blok agar ditengah secara horizontal */
+  margin: 0 auto; /* Menengahkan tombol submit secara horizontal */
+}
+
+.btn-submit:hover {
+  background-color: #874c38; /* Warna latar belakang tombol submit saat disorot */
+}
+
+/* prosess.php */
+
+.proses {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F39C12; /* Warna latar belakang proses */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk memberikan kedalaman */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+.back-button {
+  background-color: #D35400;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.back-button:hover {
+  background-color: #E67E22; /* Warna saat tombol hover */
+}
